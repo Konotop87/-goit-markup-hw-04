@@ -1,0 +1,412 @@
+
+
+:root {
+    --primery-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+   
+   
+   
+    --backgraund1: #2F303A;
+    --background3: #F5F4FA;
+
+
+    --main-font: Roboto;
+    --secondary-font: Raleway
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0px;
+}
+
+img{
+    display: block;
+}
+
+.body {
+    color: var(--primery-text-color); 
+    font-family: var(--main-font), sans-serif;
+}
+
+
+
+.conteiner {
+    width: 1200px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+.link {
+    font-style: normal;
+    text-decoration: none;
+   
+}
+
+.title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+.subtitle {
+    margin-bottom: 10px;
+}
+
+.section{
+    padding-top:  94px;
+    
+    
+}
+
+
+
+/* Header */
+
+.heder{
+    border-bottom: 1px solid #ECECEC;
+}
+
+.heder-conteiner{
+    display: flex;
+    align-items: center;
+    
+}
+
+.heder-logo{
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.heder-nav{
+    margin-right: auto;  
+}
+
+.heder-list{
+    display: flex;
+    gap: 50px;
+}
+
+
+.heder-link{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: initial;
+    padding-top: 32px;
+    padding-bottom: 32px;   
+}
+
+.heder-link:hover,
+.heder-link:focus{
+    color: var(--accent-color);   
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+
+.heder-link-contact {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.heder-link-contact:hover,
+.heder-link-contact:focus{
+    color: var(--accent-color);
+}
+.logo-accent {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo-main-dark {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color)
+}
+
+.logo-main-light{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--white-color)
+}
+
+
+
+/* HERO */
+
+.hero{
+    background-color: var(--backgraund1);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+.mail-title{
+    font-weight: 900;
+    color: var(--white-color);
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.hero-btn{
+    display: block;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color) ;
+    color: var(--white-color);
+    cursor: pointer;
+    border-radius: 4px;
+    border :none;
+    min-width: 200px;
+    min-height: 50px;
+    max-width: 250px;
+    padding:9px 33px 9px 29px;
+    margin: 0 auto;
+}
+
+/* Benefist */
+
+.benefist-list{
+    display: flex;
+    gap: 30px;
+}
+
+.benefist-item{
+    width: 270px;
+}
+
+.benefist-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 /14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefist-desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+
+/* WORK'S */
+
+.works {
+    padding-bottom: 94px;
+}
+
+.works-list{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+/* TEAM */
+.team{
+    background-color: var(--background3);
+    padding-bottom: 94px;
+}
+
+.team-list{
+    display: flex;
+    gap: 30px;
+}
+
+.team-item{
+    background-color: var(--white-color);
+}
+
+.team-images-desc{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-images{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-desc{
+line-height: calc(19 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-color);
+ 
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: var(--backgraund1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-logo{
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+    
+
+.contact-address-desc{
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    margin-bottom: 9px;
+    
+}
+
+/* .contact-list{
+    display: block;
+} */
+
+.contact-item:nth-last-child(2) {
+    margin-bottom: 9px;
+}
+
+
+.contact-link {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+    
+.contact-link:hover,
+.contact-link:focus {
+    color: rgba(33, 150, 243, 0.6);
+}
+
+
+
+
+/* Portfolio */
+
+.portfolio-filret-list{
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+}
+
+.portfolio-desc{
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+
+.btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 22px;
+}
+.portfolio-bnt-current {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.portfolio-btn{
+    border-color: var(--background3);
+    
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
+.portfolio-item-desc{
+    padding: 19px 23px;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;   
+}
