@@ -308,7 +308,7 @@ img {
 
 .footer-box {
   display: flex;
-  max-width: 1600px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   gap: 70px;
