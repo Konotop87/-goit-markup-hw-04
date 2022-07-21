@@ -130,6 +130,16 @@ img {
   color: var(--accent-color);
 }
 
+.contact-icon {
+  fill: currentColor;
+}
+
+/* .heder-link-contact:hover .contact-icon,
+.heder-link-contact:focus .contact-icon {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+} */
+
 .logo-accent {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -291,19 +301,21 @@ img {
 /* FOOTER */
 
 .footer {
+  background-color: var(--backgraund1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-box {
   display: flex;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--backgraund1);
-  padding-top: 60px;
-  padding-bottom: 60px;
   gap: 70px;
 }
 
 .footer-conteiner {
   padding: 0 15px;
-  margin-left: 215px;
 }
 
 .footer-logo {
@@ -374,6 +386,7 @@ img {
   line-height: 36px;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+  color: var(--primery-text-color);
 }
 
 .portfolio-desc {
@@ -421,6 +434,16 @@ img {
   margin-bottom: 94px;
 }
 
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .portfolio-item-desc {
   padding: 19px 23px;
   border-left: 1px solid #eeeeee;
@@ -461,7 +484,21 @@ img {
   fill: var(--white-color);
 }
 
-.thumb {
+/* Clients */
+
+.client-section {
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.client-link {
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-link-color);
@@ -471,14 +508,11 @@ img {
   justify-content: center;
 }
 
-.clients-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 50px;
-  margin-bottom: 94px;
+.client-link:hover,
+.contact-link:focus {
+  border: 1px solid var(--accent-color);
 }
+
 .icon {
   fill: var(--social-link-color);
 }
